@@ -8,7 +8,7 @@ Today's assignment will consist of one reading assignment and one coding assignm
 Read Chapter 6 up until the "Shared References" section. That will be pages 181-186.
 Then answer the following questions:
 1. What is garbage collection? Why is it important?
-Automatic reclamation of object's space
+Automatic reclamation of object's space  it is important because it saves space
 2. Explain the difference between 'dynamic typing' and 'static typing'
 (ask mom or dad if this is too difficult, but only after thinking about it).
 
