@@ -13,6 +13,7 @@ Automatic reclamation of object's space
 (ask mom or dad if this is too difficult, but only after thinking about it).
 
 3. When a variable is assigned a value, what 3 steps does python take?
+
 create an object to represent the value 3
 
 create a varible a if it does not yet exist
@@ -53,6 +54,14 @@ if __name__ == '__main__':
     g(y)
     print y
 ```
+
+def f(x): return x * 2
+
+def g(x): x += 'zzz' print f(x)
+
+if name == 'main': y = 'abc' g(y) print y
+
+​
 
 #### Example 3
 
@@ -116,3 +125,4 @@ from a import f
 if __name__ == '__main__':
     print f(['a', 'b', 'c'])
 ```
+1234
