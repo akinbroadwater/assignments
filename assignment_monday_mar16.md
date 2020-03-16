@@ -125,4 +125,8 @@ from a import f
 if __name__ == '__main__':
     print f(['a', 'b', 'c'])
 ```
+
+12
 1234
+ab
+abc
