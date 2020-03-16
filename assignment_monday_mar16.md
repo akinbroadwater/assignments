@@ -8,10 +8,16 @@ Today's assignment will consist of one reading assignment and one coding assignm
 Read Chapter 6 up until the "Shared References" section. That will be pages 181-186.
 Then answer the following questions:
 1. What is garbage collection? Why is it important?
+Automatic reclamation of object's space
 2. Explain the difference between 'dynamic typing' and 'static typing'
 (ask mom or dad if this is too difficult, but only after thinking about it).
-3. When a variable is assigned a value, what 3 steps does python take?
 
+3. When a variable is assigned a value, what 3 steps does python take?
+create an object to represent the value 3
+
+create a varible a if it does not yet exist
+
+link the varible to the new object 3
 # II. Coding exercises.
 
 ## Quiz: What does this code do?
@@ -28,7 +34,8 @@ def f(x):
 if __name__ == '__main__':
     print f(7)
 ```
-
+-3
+none
 #### Example 2
 
 What's printed when I run this code?
@@ -62,7 +69,8 @@ if __name__ == '__main__':
     print a
     print b
 ```
-
+1234100
+1234100
 #### Example 4
 
 We have two files:
@@ -83,7 +91,7 @@ from a import f
 
 print f(5)
 ```
-
+30
 What's printed when I run `python b.py`?
 
 #### Example 5
