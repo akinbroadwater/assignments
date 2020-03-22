@@ -5,7 +5,7 @@
 from string import punctuation
 
 
-def find_invalid_words(valid_words, document_filename):
+def invalid_words(valid_words, document_filename):
     """Return a list of invalid words found in the specified file.
 
     Parameters
